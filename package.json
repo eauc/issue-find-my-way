@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start-fmw": "nodemon index-fmw.js",
+    "start-fsf": "nodemon index-fsf.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fastify": "^3.3.0",
     "find-my-way": "^3.0.4",
     "nodemon": "^2.0.4"
   }
